@@ -9,8 +9,9 @@ import numpy as np   # Import NumPy
 steps = np.random.choice([1, -1], size=(5, 10))																									
 																									
 # Cumulative sum gives positions																									
-positions = np.cumsum(steps, axis=1)																									
-																									
-print("Positions:\n", positions)																									
+positions = np.cumsum(steps, axis=1)	
+
+print ("Steps Taken:\n",steps)																																																	
+print("Positions (Cummative Sum):\n", positions)																									
 print("Maximum position:", positions.max())																									
 print("Minimum position:", positions.min())																									
