@@ -16,7 +16,7 @@ print("Square Root:\n", np.round(np.sqrt(np.abs(rand_arr)), 3))
 print("Exponential:\n", np.round(np.exp(rand_arr), 3))																									
 																									
 # Replace values using np.where																									
-clipped = np.where(rand_arr < 0, 0, rand_arr)																									
+clipped = np.where(rand_arr < 0, 0, rand_arr)		#np.clip(a,0.3)																							
 clipped = np.where(clipped > 3, 3, clipped)																									
 print("After np.where clipping:\n", np.round(clipped, 3))																									
 																									
