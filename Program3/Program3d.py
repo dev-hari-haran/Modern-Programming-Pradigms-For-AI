@@ -24,8 +24,9 @@ print("After np.where clipping:\n", np.round(clipped, 3))
 print("Add 10:\n", np.round(rand_arr + 10, 3))																								
 																									
 # Row-wise broadcasting																									
-print("Multiply rows:\n", np.round(rand_arr * np.array([1, 2, 3]), 3))																									
-																									
+row_multiplier = np.array([[1], [2], [3]])   # shape (3,1)
+print("Multiply rows:\n", np.round(rand_arr * row_multiplier, 3))
+						
 # Column-wise broadcasting																									
-print("Multiply columns:\n", np.round(rand_arr * np.array([[10], [20], [30]]), 3))																									
-																									
+col_multiplier = np.array([10, 20, 30, 40, 50])   # shape (5,)
+print("Multiply columns:\n", np.round(rand_arr * col_multiplier, 3))
