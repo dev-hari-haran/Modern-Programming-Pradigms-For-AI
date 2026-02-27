@@ -72,5 +72,3 @@ pip install -r requirements.txt
 Contributions are welcome! If you have a better way to optimize a vectorization process or a new visualization technique, feel free to fork this repo and submit a PR.
 
 ---
-
-**Would you like me to generate a specific `requirements.txt` file or a sample `app.py` script to get your Streamlit dashboard started?**
