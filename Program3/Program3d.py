@@ -30,3 +30,6 @@ print("Multiply rows:\n", np.round(rand_arr * row_multiplier, 3))
 # Column-wise broadcasting																									
 col_multiplier = np.array([10, 20, 30, 40, 50])   # shape (5,)
 print("Multiply columns:\n", np.round(rand_arr * col_multiplier, 3))
+
+#Output Verified
+#end.
