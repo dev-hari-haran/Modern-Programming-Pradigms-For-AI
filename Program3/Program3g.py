@@ -15,3 +15,6 @@ print ("Steps Taken:\n",steps)
 print("Positions (Cummative Sum):\n", positions)																									
 print("Maximum position:", positions.max())																									
 print("Minimum position:", positions.min())																									
+
+#Output
+#End
