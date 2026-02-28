@@ -24,3 +24,4 @@ print(pivoted)
 print("\n--- Aggregated using pivot_table() ---")
 print(pivoted_table)
 #End
+#Output
